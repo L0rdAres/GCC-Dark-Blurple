@@ -1,0 +1,61 @@
+/* =============== Bors-NG Header Menu CSS ================= */
+
+/* The outermost wrapper */
+#bors-navbar {
+    z-index: 1040;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* is there a better way to detect PM pages and Topic pages from CSS? */
+body[class*="archetype-"] #bors-navbar {
+    position: absolute;
+}
+/* This inner wrapper makes sure the nav bar respects your forum's max width */
+span#bors-top-links {
+    display: block !important;
+    margin: 5px auto 0 auto;
+    max-width: 1110px;
+}
+/* The list of links itself */
+.bors-nav-link-container li {
+    display: inline-block;
+    float: left;
+}
+/* <a> tags are links, while the <b> tag is the current page */
+.bors-nav-link-container {
+    display: block;
+    overflow: hidden;
+    margin-left: 160px;
+    position: absolute;
+}
+.bors-nav-link-container a,
+.bors-nav-link-container b {
+    color: #FFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+    padding: 1em 1.25em;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.bors-nav-link-container a:hover,
+.bors-nav-link-container a:active,
+.bors-nav-link-container a:focus {
+    background: #FFFF;
+    color: #222222;
+}
+/* small-screen mode */
+@media screen and (max-width: 1024px) {
+    /* the .js makes sure that "small-screen-mode" overrides "big-screen-mode */
+    .js div#bors-navbar {
+        position: static;
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+    .bors-nav-link-container {
+        position: static;
+        margin-left: 0;
+    }
+}

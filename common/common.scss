@@ -1,0 +1,47 @@
+// solid white background for content
+body:before {
+    display: inline-block;
+    width: 1125px;
+    min-height: 100%;
+    height: inherit;
+    background-color: #000000;
+    opacity: .65;
+    content: " ";
+    position: fixed;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+// compatibility for all devices
+@media (max-width: 1139px) and (min-width: 1000px)
+{
+    body:before {
+        width: 1010px;
+    }
+}
+
+body {
+  background: url('https://i.imgur.com/eS4IxK3.png') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+// Banner
+#banner {
+ border-radius: 0;
+ box-shadow: none;
+ padding: 2em 2em 1em 2em;
+ max-height: inherit;
+ background-size: cover;
+ background-color: #5668b7;
+ margin-bottom: 20px;
+}
+#banner .close {
+ color: #fff;
+}
+#banner #banner-content h2 {
+ margin-bottom: 0.75em;
+}
