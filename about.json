@@ -1,7 +1,7 @@
 {
-   "name" : "Dark Blurple",
-   "about_url" : "https://github.com/L0rdAres/Dark-Blurple",
-   "license_url": "https://github.com/L0rdAres/Dark-Blurple/blob/master/LICENSE",
+   "name" : "GCC Dark Blurple",
+   "about_url" : "https://ares.party",
+   "license_url": "https://github.com/L0rdAres/GCC-Dark-Blurple/blob/master/LICENSE",
    "color_schemes": {
 	  "Blurple Dark": {
         "primary": "dddddd",
