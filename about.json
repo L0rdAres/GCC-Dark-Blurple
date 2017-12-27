@@ -1,7 +1,20 @@
 {
    "name" : "Dark Blurple",
-   "about_url" : "",
-   "license_url": "",
+   "about_url" : "https://github.com/L0rdAres/Dark-Blurple",
+   "license_url": "https://github.com/L0rdAres/Dark-Blurple/blob/master/LICENSE",
    "color_schemes": {
+	  "Blurple Dark": {
+        "primary": "dddddd",
+        "secondary": "222222",
+        "tertiary": "7289DA",
+        "quaternary": "7289DA",
+        "header_background": "7289DA",
+        "header_primary": "ffffff",
+        "highlight": "00d2ff",
+        "danger": "ff0000",
+        "success": "009900",
+        "love": "fa6c8d"
+     }
+
    }
 }
