@@ -59,25 +59,3 @@ span#bors-top-links {
         margin-left: 5;
     }
 }
-//Big logo
-.logo-big {
-  display: block;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-     background: url("https://raw.githubusercontent.com/L0rdAres/GCC-Dark-Blurple/009ccacd5a91d71c7edd88252ee5f70c432dfd21/assets/Small-Logo-Color.png") no-repeat;
-     width: 150px; 
-     height: 40px; 
-     padding-left: 150px; 
-     background-size: 150px 40px;
-}
-//Small logo
-.logo-small {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url("https://raw.githubusercontent.com/L0rdAres/GCC-Dark-Blurple/009ccacd5a91d71c7edd88252ee5f70c432dfd21/assets/Small-Logo-Color.png") no-repeat;
-    width: 40px;
-    height: 40px;
-    padding-left: 40px; 
-    background-size: 40px 40px;
-}
